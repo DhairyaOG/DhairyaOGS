@@ -15,6 +15,7 @@
     overflow: hidden;
     background-color: #131720;
     padding: 10px;
+    font-family: "Lucida Handwriting", "Lucida Sans", sans-serif;
   }
   
   .topnav a{
@@ -26,10 +27,11 @@
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
+    
   }
   
   .topnav .search-container{
-    float: right;
+   float: right;
   }
   
   form{
@@ -68,3 +70,34 @@
     text-align: center;
     background-color: #151f30;
   }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(34, 79, 168);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+button.Sign-Button {
+  padding: 10px 20px;
+  font-size: 8px;
+  background-color: rgb(34, 79, 168);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+
+ .topnav a.active {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform:inherit;
+    font-size: 30px;
+}
+.topnav img.Logo {
+    float: left;
+    height: 50px;
+}
