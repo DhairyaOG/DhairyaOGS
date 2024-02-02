@@ -7,16 +7,17 @@
 </head>
 
 <body>
-
   <div class="topnav">
     <a class="active" href= index.html>Dunky Donuts </a>
-    <!-- <img class="Logo" src="Logo.png" href= index.html > -->
-    <div class="search-container">
+      <div class="search-container">
       <form role="search" id="form">
         <input type="search" id="query" name="q" placeholder="Search..">
       </form>
-    <button class="Profile-Button" id = "Profile">Profile</button>
-    <button class="Sign-Button" id = "Signup"> 
+    <button class="Profile-Button" id = "Profile">
+      <a href = profile.html>Profile</a>
+    </button>
+      
+    <button class="Login" id = "Login"> 
       <a href = login.html> Login </a>
       </button>
     </div>
@@ -30,14 +31,15 @@
         <div class="card">
           <center> 
             <a href = Movie_Info.html >
-              <img src="#" id="image" class="thumbnail" >
-              </a>
+              <img src="#" id="image" class="thumbnail">
+             </a>
             </center>
           <h3 id="title">Movie Title</h3>
         </div>
       </div>
     </div> 
   </section>
+  <div id="preloader"></div>
   
 </body>
 <script src="script.js"></script>

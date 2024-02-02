@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Info</title>
+    <link rel="stylesheet" href="Movie_Info.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href= index.html>Dunky Donuts </a>
+          <div class="search-container">
+          <form role="search" id="form">
+            <input type="search" id="query" name="q" placeholder="Search..">
+          </form>
+        <button class="Profile-Button" id = "Profile">
+          <a href = profile.html>Profile</a>
+        </button>
+          
+        <button class="Login" id = "Login"> 
+          <a href = login.html> Login </a>
+          </button>
+        </div>
+      </div>
+    
+      <div style="padding-left:16px">
+        <div
+        class="card mb-3 mx-auto animate__animated animate__backInDown"
+        style="max-width: 70vw"
+      >
+        <div class="row g-0">
+          <div
+            class="col-md-3 d-flex justify-content-center justify-content-lg-start"
+          >
+            <img
+              id="poster"
+              class="img-fluid rounded-start"
+              style="max-height: 400px"
+            />
+          </div>
+          <div class="col-md-8 my-2">
+            <div class="card-body mt-3">
+              <p class="card-title">Rating</p>
+                <span class="card-text" id="plot">_ _ _</span>
+              <p class="info-type">
+                Directors :
+                <span id="director-names" class="information">_ _ _</span>
+              </p>
+              <p class="info-type">
+                Cast :
+                <span id="cast-names" class="information">_ _ _</span>
+              </p>
+              <p class="info-type">
+                Genre :
+                <span id="genre" class="information">_ _ _</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="Movie_Info.js"></script>
+</html>

@@ -34,21 +34,14 @@
    float: right;
   }
   
-  form{
-    background-color: #151f30;
-    width: 300px;
-    height: 43px;
-    border-radius: 11px;
-    display: flex;
-    alight-items: center;
-  }
+   
   
   input {
     all: unset;
     font: 15px system-ui;
     color: #fff;
     height: 100%;
-    width: 100%;
+    width: 50%;
     padding: 6px 9px;
   }
   
@@ -70,9 +63,9 @@
     text-align: center;
     background-color: #151f30;
   }
-  button {
+  #Profile {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 3px;
     background-color: rgb(34, 79, 168);
     color: white;
     border: none;
@@ -81,23 +74,32 @@
     float: right;
 }
 
-button.Sign-Button {
-  padding: 10px 20px;
-  font-size: 8px;
+#Login {
+  font-size: 14px;
   background-color: rgb(34, 79, 168);
   color: white;
   border: none;
   border-radius: 50%;
   cursor: pointer;
   float: right;
+.Logo {
+  float: left;
+  height: 100vh;
+  width: 50%;
 }
-
- .topnav a.active {
+}
+.topnav a.active {
     font-family: "Lucida Console", "Courier New", monospace;
     text-transform:inherit;
     font-size: 30px;
+    
 }
 .topnav img.Logo {
     float: left;
     height: 50px;
+}
+.Logo {
+  float: left;
+  height: 100vh;
+  width: 50%;
 }

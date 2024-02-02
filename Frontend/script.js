@@ -34,6 +34,11 @@ function returnMovies(url){
       title.innerHTML = `${element.title}`;
       image.src = IMG_PATH + element.poster_path;
 
+      image.addEventListener('click', function() {
+        window.location.href = 'Movie_Info.html?id='+element.id; 
+    });
+
+
       center.appendChild(image);
       div_card.appendChild(center);
       div_card.appendChild(title);

@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1d2537;
+    font-family: sans-serif;
+  }
+  
+  h3 {
+    color: white;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+    font-family: "Lucida Handwriting", "Lucida Sans", sans-serif;
+  }
+  
+  .topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    
+  }
+  
+  .topnav .search-container{
+   float: right;
+  }
+  form{
+    background-color: #151f30;
+    position: absolute;
+    right: 280px;
+
+    width: 200px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    alight-items: center;
+  }
+  
+  input {
+    all: unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 50%;
+    padding: 6px 9px;
+  }
+  
+  .thumbnail {
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+  }
+  
+  .card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+  }
+  #Profile {
+    padding: 10px 20px;
+    font-size: 3px;
+    background-color: rgb(34, 79, 168);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+#Login {
+  font-size: 14px;
+  background-color: rgb(34, 79, 168);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+.topnav a.active {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform:inherit;
+    font-size: 30px;
+    
+}
+.topnav img.Logo {
+    float: left;
+    height: 50px;
+}
+.Logo {
+  float: left;
+  height: 100vh;
+  width: 50%;
+}
+.card {
+  border: 0;
+  background:white;
+  box-shadow: 0px 16px 24px 2px hsla(0, 0%, 0%, 0.14),
+    0px 6px 30px 5px hsla(0, 0%, 0%, 0.12),
+    0px 8px 10px -5px hsla(0, 0%, 0%, 0.2);
+    height: 400px;
+    width: 1000px;
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.info-type {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--logo-color);
+}
+
+.information {
+  font-weight: 500;
+  font-size: 0.9em;
+  color: var(--info-color);
+}
+#plot{
+  color: white;
+}
