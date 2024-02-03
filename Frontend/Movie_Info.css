@@ -138,3 +138,9 @@
 #plot{
   color: white;
 }
+#poster {
+  float: left;
+  height: 350px;
+  width: 300px;
+  border-radius: 19px;
+}

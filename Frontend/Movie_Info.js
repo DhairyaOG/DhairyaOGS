@@ -16,8 +16,6 @@
 //         moviePosterContainer.appendChild(moviePoster);
 //     })
 //     .catch(error => console.error('Error fetching movie details:', error));
-
-
 console.log(window.location.href);
 
 const urlString = window.location.href;
@@ -40,3 +38,34 @@ const options = {
     .then(response => response.json())
     .then(response => console.log(response))
     .catch(err => console.error(err));
+function returnMovies(url){
+      fetch(url).then(res => res.json())
+      .then(function(data){
+      console.log(data.results);
+      data.results.forEach(element => {
+          const image = document.createElement('img');
+          image.setAttribute('class', 'thumbnail');
+          image.setAttribute('id', 'image');
+          
+          const title = document.createElement('h3');
+          title.setAttribute('class', 'card-title');
+          
+          const center = document.createElement('center');
+    
+          title.innerHTML = `${element.title}`;
+          image.src = IMG_PATH + element.poster_path;
+    
+        });
+    
+    
+          center.appendChild(image);
+          div_card.appendChild(center);
+          div_card.appendChild(title);
+          div_column.appendChild(div_card);
+          div_row.appendChild(div_column);
+    
+          main.appendChild(div_row);
+      });
+    });
+    }
+    
