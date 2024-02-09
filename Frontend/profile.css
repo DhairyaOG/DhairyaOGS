@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d2537;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #131720;
+  padding: 10px;
+  font-family: "Lucida Handwriting", "Lucida Sans", sans-serif;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.topnav .search-container {
+  float: right;
+}
+input {
+  all: unset;
+  font: 15px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 50%;
+  padding: 6px 9px;
+}
+#Profile {
+  padding: 10px 20px;
+  font-size: 3px;
+  background-color: rgb(34, 79, 168);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+.topnav a.active {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-transform: inherit;
+  font-size: 30px;
+}
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper h1 {
+  font-size: 50px;
+  text-align: center;
+  color: aqua;
+}
+.profile_img {
+  border-radius: 1500px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
